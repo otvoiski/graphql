@@ -8,3 +8,6 @@ app.use('/api', graphqlHttp({
     schema,
     graphiql: true
 }))
+
+
+app.listen(4000, () => console.lo('Executing..'))
