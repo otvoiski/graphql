@@ -10,4 +10,4 @@ app.use('/api', graphqlHttp({
 }))
 
 
-app.listen(4000, () => console.lo('Executing..'))
+app.listen(4000, () => console.log('Executing...'))

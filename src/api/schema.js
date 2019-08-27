@@ -6,10 +6,12 @@ const booksAttribs = `
     title: String!
     author: String!
     publisher: String!
-    releaseDate: Date!
+    releaseDate: DateTime!
 `
 
 const typeDefs = `
+    scalar DateTime
+
     type Book {
         ${booksAttribs}
     }
